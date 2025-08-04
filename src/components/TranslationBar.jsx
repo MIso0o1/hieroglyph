@@ -102,7 +102,6 @@ const TranslationBar = ({ onTranslation }) => {
         {/* Instructions */}
         <div className="text-center text-sm text-amber-700">
           <p>Type any text above and click "Translate" to convert it to ancient Egyptian hieroglyphs</p>
-          <p className="mt-1 text-xs text-amber-600">Drag and drop the hieroglyph cards below to create your own sentences</p>
         </div>
       </div>
     </div>

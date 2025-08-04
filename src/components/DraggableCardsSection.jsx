@@ -197,8 +197,7 @@ const DraggableCardsSection = () => {
         >
           {droppedHieroglyphs.length === 0 ? (
             <div className="text-center text-amber-600 py-8">
-              <p className="text-lg mb-2">Drop hieroglyph cards here to create your sentence</p>
-              <p className="text-sm opacity-75">Drag any card from below into this area</p>
+              <p className="text-lg mb-2">Drop or click and add hieroglyph cards here to create your sentence</p>
             </div>
           ) : (
             <div className="flex flex-wrap gap-4 justify-center items-center">

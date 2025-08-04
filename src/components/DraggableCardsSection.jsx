@@ -151,8 +151,8 @@ const DraggableCardsSection = () => {
     },
     dragOver: {
       scale: 1.02,
-      borderColor: "rgb(34 197 94)",
-      backgroundColor: "rgba(187, 247, 208, 0.7)",
+      borderColor: "rgb(245 158 11)",
+      backgroundColor: "rgba(254, 243, 199, 0.8)",
       transition: { duration: 0.2 }
     }
   };
@@ -197,7 +197,8 @@ const DraggableCardsSection = () => {
         >
           {droppedHieroglyphs.length === 0 ? (
             <div className="text-center text-amber-600 py-8">
-              <p className="text-lg mb-2">Drop or click and add hieroglyph cards here to create your sentence</p>
+              <p className="text-lg mb-2">Drop hieroglyph cards here to create your sentence</p>
+              <p className="text-sm opacity-75">Drag any card from below into this area</p>
             </div>
           ) : (
             <div className="flex flex-wrap gap-4 justify-center items-center">
